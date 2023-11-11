@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": ["eva-icons"],
             "outputPath": "dist/auth-app",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -34,6 +35,7 @@
             ],
             "scripts": []
           },
+
           "configurations": {
             "production": {
               "budgets": [
